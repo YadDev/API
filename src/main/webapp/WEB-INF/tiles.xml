@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="commonLogin" template="/layout/login.jsp">
+		<put-attribute name="footer" value="/layout/footer.jsp" />
+	</definition>
+	
+	<definition name="common1" template="/views/dashBoard_adminLTE.jsp">
+		<put-attribute name="footer" value="/layout/footer.jsp" />
+	</definition>
+	
+<!-- 	<definition name="main" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Home Page" /> -->
+<!-- 		<put-attribute name="body" value="/HomePageJSP/Main.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Home Page" /> -->
+<!-- 	</definition> -->
+	
+	<definition name="login" extends="commonLogin">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="current" value="index" />
+	</definition>
+
+<!-- 	<definition name="register" extends="commonRegister"> -->
+<!-- 		<put-attribute name="title" value="Registration Page" /> -->
+<!-- 		<put-attribute name="current" value="register" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="UserDetails" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="List of Users" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/UserDetails.jsp" /> -->
+<!-- 		<put-attribute name="current" value="User's List" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="success" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="List of Users" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/success.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Success" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="addUser" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Add New User" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/addUser.jsp" /> -->
+<!-- 		<put-attribute name="current" value="User" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="extra" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Extra Activity Page" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/extra.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Home" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="dealerPage" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="New Dealer" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/dealerMaster.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Add Dealer" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="newCustomer" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="New Customer " /> -->
+<!-- 		<put-attribute name="body"	value="/WEB-INF/views/homeDeliveryCust.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Add Customer" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="customerList" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Customer's List " /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/customerList.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Customer" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="dealerList" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Dealer's List " /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/DealerList.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Dealer" /> -->
+<!-- 	</definition> -->
+
+<!-- 	<definition name="dailyCustomerReports" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Daily Customer Report " /> -->
+<!-- 		<put-attribute name="body"	value="/WEB-INF/views/showDailyReports.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Customer Report" /> -->
+<!-- 	</definition> -->
+	
+<!-- 	<definition name="dailyPurchase" extends="common1"> -->
+<!-- 		<put-attribute name="title" value="Daily Purchase Entry " /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/Daily_Purchase.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Purchase" /> -->
+<!-- 	</definition> -->
+	
+	<definition name="busStopPage" extends="common1">
+		<put-attribute name="title" value=" Purchase Report" />
+		<put-attribute name="body" value="/views/busStop.jsp" />
+		<put-attribute name="current" value="Purchase" />
+	</definition>
+	
+<!-- 	<definition name="error" extends="commonLogin"> -->
+<!-- 		<put-attribute name="title" value=" Error Page" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/error.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Error " /> -->
+<!-- 	</definition> -->
+	
+<!-- 	 DashBoard Page Display -->
+	
+	<definition name="dashboard" extends="common1">
+		<put-attribute name="title" value=" DashBoard Page" />
+		<put-attribute name="body" value="/views/dashBoard.jsp" />
+		<put-attribute name="current" value="DashBoard" />
+	</definition>
+	
+<!-- 	<definition name="busStopPage" extends="common1"> -->
+<!-- 		<put-attribute name="title" value=" Bus Stop Page" /> -->
+<!-- 		<put-attribute name="body" value="/views/busStop.jsp" /> -->
+<!-- 		<put-attribute name="current" value="DashBoard" /> -->
+<!-- 	</definition> -->
+	<!-- Employee -->
+<!-- 	<definition name="employee" extends="common1"> -->
+<!-- 		<put-attribute name="title" value=" Employee Management" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/views/employee.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Employee Management" /> -->
+<!-- 	</definition> -->
+	
+	
+	<!-- Meeting Point Start Here -->
+<!-- 	<definition name="meeting_sale" extends="common1"> -->
+<!-- 		<put-attribute name="title" value=" Anand  Meeting Sale" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/meeting/sales.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Meeting Sale" /> -->
+<!-- 		<put-attribute name="page_link" value="meeting_sale" /> -->
+		
+<!-- 	</definition> -->
+<!-- 	<definition name="sales" extends="common1"> -->
+<!-- 		<put-attribute name="title" value=" Anand  Meeting Sale" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/meeting/NewFile.jsp" /> -->
+<!-- 		<put-attribute name="current" value="Meeting Sale" /> -->
+<!-- 		<put-attribute name="page_link" value="sales" /> -->
+		
+<!-- 	</definition> -->
+	
+	<!-- Meeting Point  End Here-->
+
+</tiles-definitions>
